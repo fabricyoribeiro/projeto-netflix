@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.container-home {
+    z-index: 100;
+    background-color: black;
+}
+
+.home {
+    height: 93vh;
+    background-color: lightgrey;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://assets.nflxext.com/ffe/siteui/vlv3/eb482c64-e879-4e88-9ddc-d839cb7d1232/e9e3f8d0-711a-448e-8441-33b269740de7/BR-pt-20220131-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 45px 0px 45px;
+    height: 90px;
+}
+
+.idioma_login {
+    width: 16%;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 1px;
+}
+
+select {
+    background-color: transparent;
+    padding: 8px 12px 8px 12px;
+    border: 2px solid rgb(221, 210, 210);
+    position: absolute;
+    right: 160px;
+    top: 27px;
+}
+
+select option {
+    background-color: rgb(211, 201, 201);
+    padding: 3px;
+}
+
+.login {
+    text-decoration: none;
+    background-color: #F40612;
+    padding: 8px 12px 8px 12px;
+    border-radius: 5px;
+    position: absolute;
+    right: 50px;
+    top: 27px;
+}
+
+.logo {
+    height: 55%;
+}
+
+section {
+    border-bottom: 10px solid #222;
+    box-sizing: border-box;
+}
+
+.apresentacao {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 20vh;
+}
+
+.secao-email {
+    margin-top: 20px;
+    max-height: 48px;
+    width: 100%;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+.secao-email input {
+    width: 428px;
+    height: 58px;
+}
+
+.secao-email input::placeholder {
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.cadastrar {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0px 25px 0px 25px;
+    height: 62px;
+    background-color: #F40612;
+    font-size: 1.6em;
+}
+
+.secao2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0px;
+}
+
+.secao2 .texto {
+    min-width: 520px;
+}
+
+.secao2 .container {
+    display: flex;
+    align-items: center;
+    max-width: 80vw;
+    min-width: 1100px;
+
+    position: relative;
+}
+
+.secao2 img {
+    width: 530px;
+}
+
+.secao2 video {
+    position: absolute;
+    width: 384px;
+    top: 20.5%;
+    left: 58.2%;
+    z-index: -1;
+}
