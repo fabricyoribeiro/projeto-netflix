@@ -89,7 +89,7 @@ main, section {
 
 .secao-email {
     margin-top: 20px;
-    max-height: 48px;
+    /* max-height: 48px; */
     width: 100%;
     display: flex;
     align-items: top;
@@ -109,11 +109,39 @@ main, section {
 .cadastrar {
     display: flex;
     align-items: center;
-    padding: 0px 25px 0px 25px;
+    padding: 0px 25px;
     height: 62px;
     background-color: #F40612;
     font-size: 1.6em;
 }
+
+
+@media (max-width:950px) {
+    .secao-email {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .secao-email input {
+        width: 480px;
+        margin: auto;
+        height: 55px;
+    }
+
+    .secao-email .cadastrar {
+        width: 120px;
+        height: 40px;
+        font-size: 1em;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-top: 10px;
+    }
+}
+
+
+
 
 section {
     display: flex;
@@ -128,8 +156,9 @@ section {
 
 section .container, .container-card, .container-secao3, .container-secao4{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    max-width: 80vw;
+    width: 80vw;
     min-width: 1100px;
 
     position: relative;
@@ -147,6 +176,58 @@ section .container, .container-card, .container-secao3, .container-secao4{
     z-index: -1;
 }
 
+
+
+@media(max-width: 1200px) {
+    section .container, .container-card, .container-secao3, .container-secao4 {
+        min-width: min-content;
+        
+    }
+
+    .secao1 .texto {
+        min-width: min-content;
+    }
+
+    .secao1 img {
+        /* height: 33vw; */
+        width: 44vw;
+    }
+
+    .secao1 .container {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        width: 92%;
+    }
+
+    .secao1 video {
+        position: absolute;
+        width: 32.5vw;
+        top: 6.5vw;
+        left: 52.5vw;
+        z-index: -1;
+    }
+
+
+    .container-card :first-child {
+        width: 42vw;
+    }
+
+    .container-card {
+        width: 93%;
+    }
+
+    .container-card .card {
+        bottom: 2vw;
+        left: 7vw;
+        width: 27vw;
+        height: 6vw;
+    }
+
+
+
+}
+
 .container-card > div > img {
     width: 500px;
 }
@@ -156,9 +237,10 @@ section .container, .container-card, .container-secao3, .container-secao4{
 }
 
 .card {
+    
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    /* justify-content: space-between; */
     border: 3px solid #222;
     background-color: black;
     border-radius: 15px;
