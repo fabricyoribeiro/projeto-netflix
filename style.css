@@ -59,8 +59,9 @@ select option {
     padding: 3px;
 }
 
+a { text-decoration: none; }
+
 .login {
-    text-decoration: none;
     background-color: #F40612;
     padding: 8px 12px 8px 12px;
     border-radius: 5px;
@@ -73,9 +74,8 @@ select option {
     height: 55%;
 }
 
-section {
+main, section {
     border-bottom: 10px solid #222;
-    box-sizing: border-box;
 }
 
 .apresentacao {
@@ -107,7 +107,6 @@ section {
 }
 
 .cadastrar {
-    text-decoration: none;
     display: flex;
     align-items: center;
     padding: 0px 25px 0px 25px;
@@ -116,18 +115,18 @@ section {
     font-size: 1.6em;
 }
 
-.secao2 {
+section {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 40px 0px;
 }
 
-.secao2 .texto {
+.secao1 .texto {
     min-width: 520px;
 }
 
-.secao2 .container {
+section .container, .container-card, .container-secao3, .container-secao4{
     display: flex;
     align-items: center;
     max-width: 80vw;
@@ -136,14 +135,109 @@ section {
     position: relative;
 }
 
-.secao2 img {
+.secao1 img {
     width: 530px;
 }
 
-.secao2 video {
+.secao1 video {
     position: absolute;
     width: 384px;
     top: 20.5%;
     left: 58.2%;
     z-index: -1;
 }
+
+.container-card > div > img {
+    width: 500px;
+}
+
+.container-card > div, .container-secao3 div {
+    position: relative;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 3px solid #222;
+    background-color: black;
+    border-radius: 15px;
+    height: 70px;
+    width: 320px;
+    padding: 10px 5px;
+    align-items: center;
+    position: absolute;
+    bottom: 7%;
+    left: 16%;
+}
+
+.card :first-child {
+    height: 100%;
+}
+
+.card p {
+    color: #005FEB;
+}
+
+.card .gif {
+    height: 50px;
+}
+
+.container-card .texto, .container-secao4 .texto {
+    max-width: 530px;
+}
+
+.container-secao3 img {
+    width: 555px;
+}
+
+.container-secao3 .texto { max-width: 530px; }
+
+.container-secao3 div video {
+    width: 350px;
+    position: absolute;
+    bottom: 43%;
+    left: 18%;
+    z-index: -1;
+}
+
+.container-secao4 img{
+    width: 505px;
+}
+
+.secao-perguntas {
+    display: flex;
+    flex-direction: column;
+}
+
+aside {
+    width: 840px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    background-color: #222;
+    font-size: 1.7em;
+    margin-bottom: 10px;
+}
+
+button {
+    height: 80px;
+    background-color: transparent;
+    border: 0;
+    padding: 30px;
+    font-size: 1em;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+ul > li > div {
+    border-top: 1px solid black;
+    padding: 30px;
+}
+
