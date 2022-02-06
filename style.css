@@ -121,13 +121,13 @@ main, section {
         display: flex;
         flex-direction: column;
     }
-
+    
     .secao-email input {
         width: 480px;
         margin: auto;
         height: 55px;
     }
-
+    
     .secao-email .cadastrar {
         width: 120px;
         height: 40px;
@@ -138,6 +138,7 @@ main, section {
         margin: auto;
         margin-top: 10px;
     }
+    
 }
 
 
@@ -160,7 +161,7 @@ section .container, .container-card, .container-secao3, .container-secao4{
     align-items: center;
     width: 80vw;
     min-width: 1100px;
-
+    
     position: relative;
 }
 
@@ -183,23 +184,23 @@ section .container, .container-card, .container-secao3, .container-secao4{
         min-width: min-content;
         
     }
-
+    
     .secao1 .texto {
         min-width: min-content;
     }
-
+    
     .secao1 img {
         /* height: 33vw; */
         width: 44vw;
     }
-
-    .secao1 .container {
+    
+    .secao1 .container, .container-secao3 {
         display: flex;
         justify-content: space-between;
         margin: 0;
         width: 92%;
     }
-
+    
     .secao1 video {
         position: absolute;
         width: 32.5vw;
@@ -207,16 +208,16 @@ section .container, .container-card, .container-secao3, .container-secao4{
         left: 52.5vw;
         z-index: -1;
     }
-
-
+    
+    
     .container-card :first-child {
         width: 42vw;
     }
-
+    
     .container-card {
         width: 93%;
     }
-
+    
     .container-card .card {
         bottom: 2vw;
         left: 7vw;
@@ -224,23 +225,43 @@ section .container, .container-card, .container-secao3, .container-secao4{
         height: 6vw;
     }
 
+    .card p {
+        width: 200px;
+    }
+    
+    .container-secao3 div img {
+        width: 45vw;
+    }
 
-
+    .container-secao3 div video {
+        position: absolute;
+        width: 1vh;
+        bottom: 2vw;
+        left: 10vw;
+    }
+    
+    
 }
+
+@media(max-width: 1180px) {
+    .card p {
+        width: 130px;
+    }
+}
+
 
 .container-card > div > img {
     width: 500px;
 }
 
-.container-card > div, .container-secao3 div {
+.container-card > div, .container-secao3  div {
     position: relative;
 }
 
 .card {
-    
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     border: 3px solid #222;
     background-color: black;
     border-radius: 15px;
@@ -254,7 +275,7 @@ section .container, .container-card, .container-secao3, .container-secao4{
 }
 
 .card :first-child {
-    height: 100%;
+    width: 50px;
 }
 
 .card p {
@@ -276,8 +297,8 @@ section .container, .container-card, .container-secao3, .container-secao4{
 .container-secao3 .texto { max-width: 530px; }
 
 .container-secao3 div video {
-    width: 350px;
     position: absolute;
+    width: 48vh;
     bottom: 43%;
     left: 18%;
     z-index: -1;
