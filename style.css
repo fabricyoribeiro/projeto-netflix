@@ -5,18 +5,14 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-    background-color: black;
-}
+body { background-color: black; }
 
 h1 {
     font-size: 3em;
     margin-bottom: 20px;
 }
 
-h2 {
-    margin-bottom: 20px;
-}
+h2 { margin-bottom: 20px; }
 
 .container-home {
     z-index: 100;
@@ -70,13 +66,9 @@ a { text-decoration: none; }
     top: 27px;
 }
 
-.logo {
-    height: 55%;
-}
+.logo { height: 55%; }
 
-main, section {
-    border-bottom: 10px solid #222;
-}
+main, section { border-bottom: 10px solid #222; }
 
 .apresentacao {
     display: flex;
@@ -89,7 +81,6 @@ main, section {
 
 .secao-email {
     margin-top: 20px;
-    /* max-height: 48px; */
     width: 100%;
     display: flex;
     align-items: top;
@@ -138,11 +129,7 @@ main, section {
         margin: auto;
         margin-top: 10px;
     }
-    
 }
-
-
-
 
 section {
     display: flex;
@@ -151,9 +138,7 @@ section {
     padding: 40px 0px;
 }
 
-.secao1 .texto {
-    min-width: 520px;
-}
+.secao1 .texto { min-width: 520px; }
 
 section .container, .container-card, .container-secao3, .container-secao4{
     display: flex;
@@ -161,13 +146,10 @@ section .container, .container-card, .container-secao3, .container-secao4{
     align-items: center;
     width: 80vw;
     min-width: 1100px;
-    
     position: relative;
 }
 
-.secao1 img {
-    width: 530px;
-}
+.secao1 img { width: 530px; }
 
 .secao1 video {
     position: absolute;
@@ -177,12 +159,9 @@ section .container, .container-card, .container-secao3, .container-secao4{
     z-index: -1;
 }
 
-
-
 @media(max-width: 1200px) {
     section .container, .container-card, .container-secao3, .container-secao4 {
         min-width: min-content;
-        
     }
     
     .secao1 .texto {
@@ -190,11 +169,10 @@ section .container, .container-card, .container-secao3, .container-secao4{
     }
     
     .secao1 img {
-        /* height: 33vw; */
         width: 44vw;
     }
     
-    .secao1 .container, .container-secao3 {
+    .secao1 .container, .container-secao3, .container-secao4 {
         display: flex;
         justify-content: space-between;
         margin: 0;
@@ -209,14 +187,9 @@ section .container, .container-card, .container-secao3, .container-secao4{
         z-index: -1;
     }
     
+    .container-card :first-child { width: 42vw; }
     
-    .container-card :first-child {
-        width: 42vw;
-    }
-    
-    .container-card {
-        width: 93%;
-    }
+    .container-card { width: 93%; }
     
     .container-card .card {
         bottom: 2vw;
@@ -225,38 +198,29 @@ section .container, .container-card, .container-secao3, .container-secao4{
         height: 6vw;
     }
 
-    .card p {
-        width: 200px;
-    }
+    .card p { width: 200px; }
     
-    .container-secao3 div img {
-        width: 45vw;
-    }
+    .container-secao3 div img { width: 45vw; }
 
     .container-secao3 div video {
         position: absolute;
-        width: 1vh;
-        bottom: 2vw;
-        left: 10vw;
+        width: 28vw;
+        bottom: 15vw;
+        left: 8.5vw;
+        z-index: -1;
     }
     
-    
+    .container-secao4 img { width: 42vw; }   
 }
+
 
 @media(max-width: 1180px) {
-    .card p {
-        width: 130px;
-    }
+    .card p { width: 130px; }
 }
 
+.container-card > div > img { width: 500px; }
 
-.container-card > div > img {
-    width: 500px;
-}
-
-.container-card > div, .container-secao3  div {
-    position: relative;
-}
+.container-card > div, .container-secao3  div { position: relative; }
 
 .card {
     display: flex;
@@ -274,38 +238,28 @@ section .container, .container-card, .container-secao3, .container-secao4{
     left: 16%;
 }
 
-.card :first-child {
-    width: 50px;
-}
+.card :first-child { width: 50px; }
 
-.card p {
-    color: #005FEB;
-}
+.card p { color: #005FEB; }
 
-.card .gif {
-    height: 50px;
-}
+.card .gif { height: 50px; }
 
-.container-card .texto, .container-secao4 .texto {
-    max-width: 530px;
-}
+.container-card .texto, .container-secao4 .texto { max-width: 530px; }
 
-.container-secao3 img {
-    width: 555px;
-}
+.container-secao3 img { width: 555px; }
 
 .container-secao3 .texto { max-width: 530px; }
 
-.container-secao3 div video {
-    position: absolute;
-    width: 48vh;
-    bottom: 43%;
-    left: 18%;
-    z-index: -1;
-}
+@media(min-width:1201px) {
+    .container-secao3 div video {
+        position: absolute;
+        width: 360px;
+        bottom: 43%;
+        left: 18%;
+        z-index: -1;
+    }
 
-.container-secao4 img{
-    width: 505px;
+    .container-secao4 img{ width: 505px; }
 }
 
 .secao-perguntas {
@@ -313,13 +267,9 @@ section .container, .container-card, .container-secao3, .container-secao4{
     flex-direction: column;
 }
 
-aside {
-    width: 840px;
-}
+aside { width: 840px; }
 
-ul {
-    list-style: none;
-}
+ul { list-style: none; }
 
 li {
     background-color: #222;
@@ -335,12 +285,9 @@ button {
     font-size: 1em;
 }
 
-button:hover {
-    cursor: pointer;
-}
+button:hover { cursor: pointer; }
 
 ul > li > div {
     border-top: 1px solid black;
     padding: 30px;
 }
-
