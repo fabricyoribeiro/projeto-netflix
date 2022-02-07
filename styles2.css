@@ -1,0 +1,124 @@
+@media(max-width: 950px) {
+    .secao-perguntas, aside {
+        width: 700px;
+        margin: auto;
+    }
+    .apresentacao {
+
+        margin: auto;
+        margin-top: 20vh;
+    }
+
+    .secao-email {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .secao-email input {
+        width: 480px;
+        margin: auto;
+        height: 55px;
+    }
+    
+    .secao-email .cadastrar {
+        width: 120px;
+        height: 40px;
+        font-size: 1em;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* padding: 40px 0px; */
+        padding: 70px 0 0 0;
+    }
+
+    section h2 {
+        font-size: 18px;
+    }
+
+    .secao1 .texto {
+        width: 90%;
+        text-align: center;
+    }
+
+    .secao1 .container {
+        flex-direction: column;
+    }
+
+    .secao1 img {
+        width: 560px;
+        position: relative;
+        top: -60px;
+        z-index: -1;
+    }
+
+    .secao1 video {
+        position: absolute;
+        width: 408px;
+        top: 29.5%;
+        left: unset;
+        right: 10%;
+    }
+    
+
+}
+
+@media(max-width: 840px) {
+    .apresentacao {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+@media(max-width: 740px) {
+    .secao-email input {
+        height: 45px;
+    }
+}
+
+@media(max-width: 620px) {
+    .apresentacao {
+        margin-top: 10vh;
+        /* margin-left: 30px;
+        margin-right: 30px; */
+    }
+}
+
+@media(max-width: 550px) {
+    .logo {
+        height: 40%;
+    }
+
+    .login {
+        padding: 3px 8px;
+        border-radius: 3px;
+        right: 20px;
+    }
+
+    select {
+        padding: 3px 4px;
+        right: 100px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+
+    .secao-email input {
+        width: 100%;
+    }
+
+    .home {
+        height: 70vh;
+    }
+}
