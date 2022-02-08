@@ -63,11 +63,45 @@
         position: absolute;
         width: 408px;
         top: 29.5%;
-        left: unset;
-        right: 10%;
+        left: 50%;
+        transform: translate(-50% );
     }
-    
 
+    .container-card {
+        position: relative;
+        flex-direction: column-reverse;
+        text-align: center;
+        margin: auto;
+
+    }
+
+    .container-card :first-child{
+        width: 600px;
+    }
+
+    .container-card .texto{
+        margin: auto;
+        width: auto;
+    }
+
+
+
+    .card :first-child {
+        width: 50px;
+    }
+
+    .card {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        text-align: left;
+    }
+
+    .card p{
+        width: max-content;
+    }
+
+    
 }
 
 @media(max-width: 840px) {

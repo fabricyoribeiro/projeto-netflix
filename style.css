@@ -193,12 +193,7 @@ section .container, .container-card, .container-secao3, .container-secao4{
     
     .container-card { width: 93%; }
     
-    .container-card .card {
-        bottom: 2vw;
-        left: 7vw;
-        width: 27vw;
-        height: 6vw;
-    }
+
 
     .card p { width: 200px; }
     
@@ -262,6 +257,17 @@ section .container, .container-card, .container-secao3, .container-secao4{
     }
 
     .container-secao4 img{ width: 505px; }
+
+
+}
+
+@media(min-width: 950px) and (  max-width: 1200px) {
+    .container-card .card {
+        bottom: 2vw;
+        left: 7vw;
+        width: 27vw;
+        height: 6vw;
+    }
 }
 
 .secao-perguntas {
