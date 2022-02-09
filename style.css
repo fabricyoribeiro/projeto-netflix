@@ -241,7 +241,7 @@ section .container, .container-card, .container-secao3, .container-secao4{
 
 .card .gif { height: 50px; }
 
-.container-card .texto, .container-secao4 .texto { max-width: 530px; }
+.container-secao4 .texto { max-width: 530px; }
 
 .container-secao3 img { width: 555px; }
 
