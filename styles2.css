@@ -266,6 +266,8 @@
         width: 95vw;
         margin: 0;
     }
+
+
 }
 
 @media (max-width: 580px) {
@@ -276,7 +278,31 @@
 
 @media (max-width: 455px) {
     .home {
-    height: 93vh;
+        height: 93vh;
+    }
+
+    .secao1 video {
+        /* position: relative; */
+        top: 130px;
+        transform: translateY(-50%);
+        transform: translateX(-50%);
+
+    }
+
+    .card h1, .card p {
+        width: 30vw;
+    }
+    .card {
+        width: 65vw;
+    }
+
+    header {
+        padding: 0px 20px;
+    }
 }
-    
+
+@media (max-width: 409px) {
+    .secao1 video {
+        top: 145px;
+    }
 }
