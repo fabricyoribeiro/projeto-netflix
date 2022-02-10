@@ -9,9 +9,7 @@
         margin-bottom: 30px;
     }
 
-    ul > li > div {
-        padding: 15px;
-    }
+    ul > li > div { padding: 15px; }
 
     .apresentacao {
         margin: auto;
