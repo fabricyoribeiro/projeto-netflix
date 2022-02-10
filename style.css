@@ -136,6 +136,8 @@ section .container, .container-card, .container-secao3, .container-secao4{
     z-index: -1;
 }
 
+.secao1 .container { max-width: 1100px; }
+
 @media(max-width: 1200px) {
     section .container, .container-card, .container-secao3, .container-secao4 {
         min-width: min-content;
