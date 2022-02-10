@@ -7,8 +7,9 @@
         font-size: 20px;
     }
     .secao-perguntas, aside {
-        width: 90vw;
+        width: 85vw;
         margin: auto;
+        margin-bottom: 30px;
     }
     .apresentacao {
 
@@ -60,7 +61,7 @@
     }
 
     .secao1 img {
-        width: 560px;
+        width: 520px;
         position: relative;
         top: -60px;
         z-index: -1;
@@ -68,8 +69,8 @@
 
     .secao1 video {
         position: absolute;
-        width: 408px;
-        top: 29.5%;
+        width: 379px;
+        top: 28.5%;
         left: 50%;
         transform: translate(-50% );
     }
@@ -112,6 +113,62 @@
     }
 
     
+    .container-secao3 .texto {
+        width: 90%;
+        text-align: center;
+    }
+
+    .container-secao3{
+        flex-direction: column;
+        position: relative;
+        margin: auto;
+
+    }
+
+
+
+    .container-secao3 :nth-child(2) img {
+        width: 600px;
+        z-index: -1;
+        margin: auto;
+        /* left: 50%; */
+        /* top: 0; */
+        /* transform: translate(-50% ); */
+    }
+
+    .container-secao3 div video {
+        position: absolute;
+        width: 371px;
+        top: 48px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .container-secao4 {
+        flex-direction: column-reverse;
+    }
+
+    .container-secao4 .texto {
+        max-width: max-content;
+        width: 90%;
+        text-align: center;
+    }
+
+    .container-secao4 img {
+        width: 600px;
+    }
+
+    .secao-perguntas button {
+        height: 60px;
+        padding: 15px;
+        font-size: 20px;
+
+    }
+
+    .secao-perguntas li{
+        font-size: 20px;
+    }
+
 }
 
 @media(max-width:949) and (min-width: 721px){
@@ -142,6 +199,14 @@
         margin-right: 30px; */
     }
 
+    .secao1 img {
+        width: 84vw;
+    }
+
+    .secao1 video {
+        width: 61vw;
+    }
+
     .container-card :first-child { width: 94vw; }
     
     /* .container-card { width: 50%; } */
@@ -151,7 +216,19 @@
     }
     .card h1, .card p { font-size: 12px; } 
     .card :first-child{ width: 9vw; }
-    
+
+    .container-secao3 :nth-child(2) img {
+        width: 96vw;
+    }
+
+    .container-secao3 div video {
+        width: 62vw;
+        top: 45px;
+    }
+
+    .container-secao4 img {
+        width: 80vw;
+    }
 }
 
 @media(max-width: 550px) {
@@ -184,4 +261,22 @@
     .home {
         height: 70vh;
     }
+
+    .secao-perguntas aside {
+        width: 95vw;
+        margin: 0;
+    }
+}
+
+@media (max-width: 580px) {
+    .secao1 video {
+        top: 31%;
+    }
+}
+
+@media (max-width: 455px) {
+    .home {
+    height: 93vh;
+}
+    
 }
