@@ -2,10 +2,8 @@
     padding: 0;
     margin: 0;
     color: #FFF;
-    font-family: Arial, Helvetica, sans-serif;
-    
+    font-family: Arial, Helvetica, sans-serif;  
 }
-
 
 body { background-color: black; }
 
@@ -110,31 +108,6 @@ main, section { border-bottom: 7px solid #222; }
     font-size: 1.6em;
 }
 
-
-/* @media (max-width:950px) {
-    .secao-email {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .secao-email input {
-        width: 480px;
-        margin: auto;
-        height: 55px;
-    }
-    
-    .secao-email .cadastrar {
-        width: 120px;
-        height: 40px;
-        font-size: 1em;
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        margin: auto;
-        margin-top: 10px;
-    }
-} */
-
 section {
     display: flex;
     align-items: center;
@@ -168,13 +141,9 @@ section .container, .container-card, .container-secao3, .container-secao4{
         min-width: min-content;
     }
     
-    .secao1 .texto {
-        min-width: min-content;
-    }
+    .secao1 .texto { min-width: min-content; }
     
-    .secao1 img {
-        width: 44vw;
-    }
+    .secao1 img { width: 44vw; }
     
     .secao1 .container, .container-secao3, .container-secao4 {
         display: flex;
@@ -194,8 +163,6 @@ section .container, .container-card, .container-secao3, .container-secao4{
     .container-card :first-child { width: 42vw; }
     
     .container-card { width: 93%; }
-    
-
 
     .card p { width: 200px; }
     
@@ -211,7 +178,6 @@ section .container, .container-card, .container-secao3, .container-secao4{
     
     .container-secao4 img { width: 42vw; }   
 }
-
 
 @media(max-width: 1180px) {
     .card p { width: 130px; }
@@ -259,8 +225,6 @@ section .container, .container-card, .container-secao3, .container-secao4{
     }
 
     .container-secao4 img{ width: 505px; }
-
-
 }
 
 @media(min-width: 950px) and (  max-width: 1200px) {
@@ -289,7 +253,6 @@ li {
     background-color: #222;
     font-size: 1.7em;
     margin-bottom: 10px;
-    
 }
 
 button {
